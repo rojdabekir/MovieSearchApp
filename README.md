@@ -73,11 +73,13 @@ Then open the local URL provided by Vite in your browser.
 
 ```text
 MovieSearchApp/
-├── images/
-├── .gitignore
 ├── index.html
-├── movieApp.css
-├── movieScript.js
+├── src/
+│   ├── movieApp.css
+│   └── movieScript.js
+├── images/
+├── .env
+├── .gitignore
 ├── package.json
 ├── package-lock.json
 └── README.md
