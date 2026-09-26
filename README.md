@@ -82,7 +82,3 @@ MovieSearchApp/
 ├── package-lock.json
 └── README.md
 ```
-
-## 📌 Notes
-
-The `.env` file is excluded from Git using `.gitignore` so that the API token is not committed to the repository.
