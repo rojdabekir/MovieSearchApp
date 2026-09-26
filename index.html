@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+    <link rel="stylesheet" href="movieApp.css">
+</head>
+<body>
+    <div class="movie-app">
+        <h1>Let's watch a movie</h1>
+        <p>Discover and explore your favourite movies like never before with our intuitive Movie Search App, your ultimate cinematic companion!</p>
+        <div class="search-row">
+            <input type="text" placeholder="search a movie" id="search-input">
+            <button class="search-btn"><img src="images/search-icon.png" class="searchLogo"></button>
+        </div>
+        <p id="error-message"></p>
+        <div class="movies-box"></div>   
+    </div>
+    <div class="movie-details hidden">
+        <button id="go-back-btn"><img src="images/back-logo.png" class="go-back-img"></button>
+        <div class="main-box">
+            <img src="" id="poster" class="poster-img"> 
+            <div class="movie-data">
+                <h2 id="movie-title"></h2>
+                <p id="movie-rating"></p>
+                <p id="movie-date"></p>
+                <p id="movie-duration"></p>
+                <div id="movie-genres" class="genres"></div>
+            </div>
+        </div>
+        <div class="movie-description">
+            <h3>Plot:</h3>
+            <p id="movie-plot"></p>
+            <h3>Cast:</h3>
+            <div class="movie-cast"></div>
+        </div>
+    </div>
+    <script type="module" src="/movieScript.js"></script>
+</body>
+</html>
