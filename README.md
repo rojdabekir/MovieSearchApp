@@ -2,6 +2,8 @@
 
 A movie search web application built with HTML, CSS, and JavaScript. The application uses the TMDB API to search for movies and display detailed information about them.
 
+## 🎮 Live Demo: 
+
 ## ✨ Features
 
 * Search for movies by title
@@ -11,15 +13,6 @@ A movie search web application built with HTML, CSS, and JavaScript. The applica
 * Display information about the cast
 * Responsive user interface
 * Error handling when a movie cannot be found
-
-## 🛠️ Technologies
-
-* HTML5
-* CSS3
-* JavaScript
-* Vite
-* REST API
-* TMDB API
 
 ## 🔑 API
 
