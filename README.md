@@ -2,7 +2,7 @@
 
 A movie search web application built with HTML, CSS, and JavaScript. The application uses the TMDB API to search for movies and display detailed information about them.
 
-## 🎮 Live Demo: 
+## 🎮 Live Demo: https://rojdabekir.github.io/MovieSearchApp/
 
 ## ✨ Features
 
